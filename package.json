@@ -29,3 +29,5 @@
   "author": "",
   "license": "ISC"
 }
+
+npm install @netlify/plugin-nextjs
