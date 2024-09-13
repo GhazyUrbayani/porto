@@ -21,7 +21,8 @@
     "react-dom": "^18.3.1",
     "react-type-animation": "^3.1.0",
     "resend": "^1.1.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "@netlify/plugin-nextjs": "^4.10.0" // Add this line
   },
   "description": "This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.",
   "main": "next.config.js",
@@ -29,5 +30,3 @@
   "author": "",
   "license": "ISC"
 }
-
-npm install @netlify/plugin-nextjs
