@@ -43,5 +43,5 @@ The following dependencies are required for this project:
 # Contact
 
 Created by [@GhazyUrbayani](https://github.com/GhazyUrbayani) feel free to contact me!
-#Ghazy Achmed Movlech Urbayani
+# Ghazy Achmed Movlech Urbayani
 ## 19623060
