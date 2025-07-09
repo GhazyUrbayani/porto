@@ -7,7 +7,7 @@ export const metadata = {
   title: "Ghazy's Porto",
     description: 'Personal Portfolio showcasing skills, projects, and achievements.',
   icons: {
-    icon: '/images/hero-image.png',
+    icon: 'favicon.ico',
   },
 }
 
