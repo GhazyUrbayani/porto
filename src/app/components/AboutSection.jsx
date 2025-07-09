@@ -5,60 +5,71 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <p className="font-semibold mt-2">Programming Languages</p>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>HTML & CSS</li>  
-        <li>Java</li>
-        <li>C</li>
+  title: "Skills",
+  id: "skills",
+  content: (
+    <div className="flex flex-wrap gap-2"> {/* Kontainer untuk bubble-bubble */}
+      {/* Programming Languages */}
+      <div className="w-full text-white font-semibold mt-2 mb-1">Programming Languages</div>
+      <span className="skill-bubble">Python</span>
+      <span className="skill-bubble">JavaScript</span>
+      <span className="skill-bubble">HTML</span>
+      <span className="skill-bubble">CSS</span>
+      <span className="skill-bubble">Java</span>
 
-        <p className="font-semibold mt-2">Frameworks & Libraries</p>
-        <li>React</li>
-        <li>Next.js</li>
-        <li>JavaFX</li>
-        <li>Swing</li>
-        <li>Laravel (Back-End)</li>
-        <li>Pandas, NumPy, Scikit-learn (Data Science)</li>
+      {/* Frameworks & Libraries */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Frameworks & Libraries</div>
+      <span className="skill-bubble">React</span>
+      <span className="skill-bubble">Next.js</span>
+      <span className="skill-bubble">JavaFX</span>
+      <span className="skill-bubble">Swing</span>
+      <span className="skill-bubble">Laravel (Backend)</span>
+      <span className="skill-bubble">Pandas</span>
+      <span className="skill-bubble">NumPy</span>
+      <span className="skill-bubble">Scikit-learn</span>
 
-        <p className="font-semibold mt-2">Databases & Tools</p>
-        <li>MySQL</li>
-        <li>JDBC</li>
-        <li>Git</li>
-        <li>Gradle</li>
-        <li>IntelliJ IDEA</li>
-        <li>Visual Studio Code</li>
+      {/* Databases & Tools */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Databases & Tools</div>
+      <span className="skill-bubble">MySQL</span>
+      <span className="skill-bubble">JDBC</span>
+      <span className="skill-bubble">Git</span>
+      <span className="skill-bubble">Gradle</span>
+      <span className="skill-bubble">IntelliJ IDEA</span>
+      <span className="skill-bubble">VS Code</span>
 
-        <p className="font-semibold mt-2">Cloud Platforms</p>
-        <li>Microsoft Azure (e.g., hosting databases)</li>
-        <li>AWS (concepts/interest)</li>
+      {/* Cloud Platforms */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Cloud Platforms</div>
+      <span className="skill-bubble">Microsoft Azure</span>
+      <span className="skill-bubble">AWS (Concepts)</span>
 
-        <p className="font-semibold mt-2">Data & Analytics Skills</p>
-        <li>Data Science</li>
-        <li>Data Analysis</li>
-        <li>Statistical Analysis</li>
-        <li>Problem-Solving</li>
-        <li>Critical Thinking</li>
+      {/* Data & Analytics */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Data & Analytics</div>
+      <span className="skill-bubble">Data Science</span>
+      <span className="skill-bubble">Data Analysis</span>
+      <span className="skill-bubble">Statistical Analysis</span>
+      <span className="skill-bubble">Problem-Solving</span>
+      <span className="skill-bubble">Critical Thinking</span>
 
-        <p className="font-semibold mt-2">Project Management</p>
-        <li>Project Planning</li>
-        <li>Coordination</li>
-        <li>Risk Management</li>
-        <li>Stakeholder Management</li>
-        <li>Agile Methodologies</li>
+      {/* Project Management */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Project Management</div>
+      <span className="skill-bubble">Project Planning</span>
+      <span className="skill-bubble">Coordination</span>
+      <span className="skill-bubble">Risk Management</span>
+      <span className="skill-bubble">Stakeholder Management</span>
+      <span className="skill-bubble">Agile Methodologies</span>
 
-        <p className="font-semibold mt-2">Soft Skills</p>
-        <li>Leadership</li>
-        <li>Communication (Public Speaking, Presentation, Negotiation)</li>
-        <li>Teamwork</li>
-        <li>Adaptability</li>
-        <li>Empathy</li>
-      </ul>
-    ),
-  },
+      {/* Soft Skills */}
+      <div className="w-full text-white font-semibold mt-4 mb-1">Soft Skills</div>
+      <span className="skill-bubble">Leadership</span>
+      <span className="skill-bubble">Public Speaking</span>
+      <span className="skill-bubble">Presentation</span>
+      <span className="skill-bubble">Negotiation</span>
+      <span className="skill-bubble">Teamwork</span>
+      <span className="skill-bubble">Adaptability</span>
+      <span className="skill-bubble">Empathy</span>
+    </div>
+  ),
+},
   {
     title: "Education",
     id: "education",
