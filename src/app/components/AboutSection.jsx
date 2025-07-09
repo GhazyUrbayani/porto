@@ -96,10 +96,11 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
+    {
     title: "Leadership & Experience",
     id: "leadership",
     content: (
+      <>
         <ul className="list-disc pl-2">
           <li className="mb-2">- <strong>Vice Project Officer (VPO) Expo Campus TOGA:</strong> Managed hundreds of committee members from various campuses and events attracting thousands of participants.</li>
           <li className="mb-2">- <strong>Wakil Ketua Pelaksana SONIC LINGUISTIC:</strong> Managed a budget of hundreds of millions and over 4000 participants.</li>
