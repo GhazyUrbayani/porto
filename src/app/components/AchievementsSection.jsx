@@ -25,10 +25,8 @@ const achievementsList = [
 
 const AchievementsSection = () => {
   return (
-    <div className="py-8 sm:py-16 flex justify-center">
-      {/* Menambahkan max-w-fit untuk membuat lebar kotak sesuai kontennya */}
-      {/* mx-auto akan memusatkan kotak yang sudah mengecil ini */}
-      <div className="sm:border-[#33353F] sm:border rounded-xl py-8 px-8 flex flex-col sm:flex-row items-center justify-center gap-x-8 mx-auto max-w-fit"> {/* PERUBAHAN UTAMA DI SINI: Ditambahkan max-w-fit */}
+    <div className="py-8 sm:py-16 px-10 flex justify-center">
+      <div className="sm:border-[#33353F] sm:border rounded-xl py-8 px-15 flex flex-col sm:flex-row items-center justify-center gap-x-15 mx-auto max-w-fit">
         {achievementsList.map((achievement, index) => {
           return (
             <div
