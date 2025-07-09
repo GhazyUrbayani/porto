@@ -23,14 +23,13 @@ const achievementsList = [
 
 const AchievementsSection = () => {
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-around"> {/* Perubahan di sini: justify-around atau justify-evenly untuk distribusi lebih merata */}
+    <div className="py-8 px-2 xl:gap-16 sm:py-16 xl:px-10">
+      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-around">
         {achievementsList.map((achievement, index) => {
           return (
             <div
               key={index}
-              // Hapus mx-4 jika ingin lebih rapat atau sesuaikan
-              className="flex flex-col items-center justify-center my-4 sm:my-0 sm:mx-8" /* Tambahkan sm:mx-8 atau sesuaikan untuk jarak horizontal di layar besar */
+              className="flex flex-col items-center justify-center my-4 sm:my-0 sm:mx-8"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
