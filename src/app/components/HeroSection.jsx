@@ -26,6 +26,10 @@ const HeroSection = () => {
                 1000,
                 "Junior Web Dev",
                 1000,
+                "Software Engineer",
+                1000,
+                "Data Scientist",
+                1000,
                 "Project Manager",
                 1000,
               ]}
@@ -35,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Information Systems and Technology Student at Institut Teknologi Bandung
+            Information Systems and Technology student at Institut Teknologi Bandung
           </p>
           <div>
             <Link
@@ -46,12 +50,22 @@ const HeroSection = () => {
             </Link>
             <Link
               href="https://www.linkedin.com/in/ghazyurbayani"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3 mr-4" // Added mr-4 for spacing
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Linkedin
+              </span>
+            </Link>
+            <Link
+              href="https://github.com/GhazyUrbayani"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                GitHub
               </span>
             </Link>
           </div>
