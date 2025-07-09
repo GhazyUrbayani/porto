@@ -13,11 +13,13 @@ const achievementsList = [
   {
     metric: "Projects",
     value: "11",
+    prefix: "",
   },
   {
+    prefix: "+",
     metric: "Awards",
     value: "10",
-    postfix: "++",
+    postfix: "",
   },
 ];
 
