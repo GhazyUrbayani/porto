@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/#home"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          Ghazy&apos;s Porto
+          Ghazy's Porto
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
