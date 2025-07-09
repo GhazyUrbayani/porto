@@ -48,7 +48,7 @@ const EmailSection = () => {
           Your Next Project Starts Here.
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I&apos;m available for new challenges<br>
+          I&apos;m available for new challenges<br />
           Let&apos;s connect!
         </p>
         <div className="socials flex flex-row gap-2">
