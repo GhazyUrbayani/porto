@@ -13,23 +13,25 @@ const achievementsList = [
   {
     metric: "Projects",
     value: "11",
+    prefix: "",
   },
   {
     prefix: "+",
     metric: "Awards",
     value: "10",
+    postfix: "",
   },
 ];
 
 const AchievementsSection = () => {
   return (
-    <div className="py-8 xl:gap-16 sm:py-16 xl:px-5">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-5 flex flex-col sm:flex-row items-center justify-around">
+    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="sm:border-[#33353F] sm:border rounded-xl py-8 px-12 flex flex-col sm:flex-row items-center justify-center gap-x-12">
         {achievementsList.map((achievement, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-center justify-center my-4 sm:my-0 sm:mx-4"
+              className="flex flex-col items-center justify-center my-4 sm:my-0"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
