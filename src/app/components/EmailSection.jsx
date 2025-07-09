@@ -45,13 +45,11 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+          Your Next Project Starts Here.
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          I&apos;m available for new challenges<br>
+          Let&apos;s connect!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://wa.me/6289523043715" target="_blank" rel="noopener noreferrer">
@@ -63,7 +61,7 @@ const EmailSection = () => {
           <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=ghazyurbayani@gmail.com&su=Subject&body=YourMessage"  target="_blank" rel="noopener noreferrer" >
             <Image src={MailIcon} alt="G-Mail Icon" className="w-14 h-14"/>
           </Link>
-          <Link href="https://github.com/GhazyUrbayani"  target="_blank" rel="noopener noreferrer" > {/* Added GitHub link */}
+          <Link href="https://github.com/GhazyUrbayani"  target="_blank" rel="noopener noreferrer" >
             <Image src={GithubIcon} alt="GitHub Icon" className="w-14 h-14"/>
           </Link>
         </div>
@@ -88,7 +86,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="ghazy@gmail.com"
+                placeholder="Ex: YourMail@gmail.com"
               />
             </div>
             <div className="mb-6">
@@ -104,7 +102,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Just saying hi!"
               />
             </div>
             <div className="mb-6">
