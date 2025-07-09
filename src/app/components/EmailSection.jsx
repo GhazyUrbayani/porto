@@ -45,13 +45,10 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Your Next Project Starts Here.
+          Let&apos;s connect!
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I&apos;m available for new challenges
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Let&apos;s connect!
+          I&apos;m ready for new challenges with you. Your next step starts here
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://wa.me/6289523043715" target="_blank" rel="noopener noreferrer">
