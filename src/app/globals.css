@@ -25,3 +25,25 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.skill-bubble {
+  @apply bg-[#33353F] text-white px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:bg-primary-500 cursor-default;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Jika ingin 3-3 di baris yang sama, mungkin perlu penyesuaian width atau gunakan grid */
+/*
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); // Sesuaikan minmax jika terlalu kecil/besar
+  gap: 8px; // Jarak antar bubble
+}
+
+.skill-bubble {
+  @apply bg-[#33353F] text-white px-4 py-2 rounded-full text-sm font-medium text-center transition-all duration-300 hover:bg-primary-500 cursor-default;
+  // Hapus margin-right dan margin-bottom jika menggunakan gap di grid
+}
+*/
