@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import WAIcon from "../../../public/whatsapp.png";
 import IGIcon from "../../../public/instagram.png";
 import MailIcon from "../../../public/gmail.png";
+import GithubIcon from "../../../public/github-icon.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,15 +20,11 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
-    // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
@@ -65,6 +62,9 @@ const EmailSection = () => {
           </Link>
           <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=ghazyurbayani@gmail.com&su=Subject&body=YourMessage"  target="_blank" rel="noopener noreferrer" >
             <Image src={MailIcon} alt="G-Mail Icon" className="w-14 h-14"/>
+          </Link>
+          <Link href="https://github.com/GhazyUrbayani"  target="_blank" rel="noopener noreferrer" > {/* Added GitHub link */}
+            <Image src={GithubIcon} alt="GitHub Icon" className="w-14 h-14"/>
           </Link>
         </div>
       </div>
